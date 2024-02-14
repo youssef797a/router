@@ -1,0 +1,68 @@
+/* App.css */
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-card h3 {
+  margin: 10px 0;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.description-page {
+  text-align: center;
+}
+
+.description-page iframe {
+  margin-top: 20px;
+  border: none;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+/* App.css */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
